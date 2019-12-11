@@ -7,10 +7,4 @@ class Post
     @name = name
     @@all << self
   end
-
-  def self.all
-    Post.all.size
-  end
-
-
 end
