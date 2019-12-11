@@ -12,6 +12,6 @@ class Song
   end
 
   def artisit_name
-    author.name if autho
+    author.name if author
   end
 end
