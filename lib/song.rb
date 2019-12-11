@@ -11,4 +11,7 @@ class Song
     @@all
   end
 
+  def artisit_name
+    author.name if author
+  end
 end
